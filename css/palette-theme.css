@@ -1,0 +1,616 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  overflow-x: hidden; }
+
+.navbar .logo .logo_container {
+  max-width: 140px;
+  font-size: 0.85rem;
+  font-weight: 700; }
+
+.navbar .navbar_content_item a {
+  font-weight: 700; }
+  @media (min-width: 992px) {
+    .navbar .navbar_content_item a {
+      font-size: 0.9rem; } }
+
+.header .paragr {
+  font-size: 1.2rem; }
+
+.paragr {
+  font-size: 0.9rem; }
+
+.fa {
+  font-size: 1.1rem; }
+
+.top-paragr {
+  font-size: 1.1rem; }
+
+.article .title {
+  font-weight: normal; }
+
+.btn {
+  border-radius: 25px;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s; }
+  .btn.btn-outline {
+    border: 1px solid; }
+  .btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2%); }
+  .btn:active {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(0); }
+  .btn.play:hover {
+    transform: translate(-50%, -50%); }
+  .btn.play, .btn.md-btn-circle, .btn.btn-circle {
+    border-radius: 50%; }
+
+.header {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  z-index: 100; }
+
+.logo a {
+  display: block;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #212121;
+  padding: 20px 0 0 0;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: -0.08em; }
+  .logo a strong {
+    letter-spacing: 0.05em;
+    color: #868686;
+    display: inline-block;
+    margin-left: 5px; }
+
+@media only screen and (min-width: 600px) {
+  .logo {
+    padding: 5px 20px 0 40px; }
+    .logo a {
+      font-size: 1.5rem; } }
+
+.logo .clr-1 {
+  color: #FB4B1B; }
+
+.logo .clr-2 {
+  color: #008FF5; }
+
+.logo .clr-3 {
+  color: #286DF0; }
+
+.logo .clr-4 {
+  color: #6B28EF; }
+
+.logo .clr-5 {
+  color: #08a32f; }
+
+main {
+  margin-top: 130px; }
+  @media only screen and (min-width: 600px) {
+    main {
+      margin-top: 50px; } }
+
+.footer a {
+  color: #008FF5;
+  font-weight: 900;
+  padding: 0; }
+
+.icons .small {
+  font-size: 1rem;
+  padding: 10px; }
+
+.icons .large {
+  font-size: 2rem;
+  padding: 1rem; }
+
+.typo li {
+  padding: 0.5rem 0; }
+
+.typo .link {
+  display: block;
+  margin-top: 1rem;
+  text-decoration: underline; }
+
+.nav-type {
+  font-weight: 900; }
+
+.colored-background .icons, .colored-background .nav-type a {
+  color: white; }
+
+.colored-background .btn-outline {
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff; }
+
+.colored-background .typo .title, .colored-background .typo .subtitle, .colored-background .typo .link, .colored-background .typo .paragraphe, .colored-background .typo .list {
+  color: white; }
+
+.palette-board strong {
+  display: block; }
+
+@media only screen and (min-width: 600px) {
+  .palette-board {
+    margin-top: 0px; } }
+
+.palette {
+  display: inline-block;
+  cursor: pointer; }
+  .palette .palette-item {
+    height: 25px;
+    margin-bottom: 5px; }
+  .palette span {
+    display: block;
+    float: left;
+    height: 25px;
+    width: 50px; }
+  .palette .dropdown {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 30px;
+    margin-left: -1rem;
+    box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.1); }
+    .palette .dropdown.active {
+      display: block; }
+
+.bc-blue {
+  background-color: #7eaff0; }
+
+.url .btn {
+  padding: 5px 20px 5px 15px;
+  background-color: #286DF0;
+  color: #fff;
+  margin-bottom: 10px; }
+
+@media only screen and (min-width: 600px) {
+  .header {
+    display: flex; }
+  .url {
+    top: 0; }
+  .btn {
+    margin-top: 26px !important;
+    margin-right: 20px; } }
+
+.main-content .white-background .typo .title {
+  color: black; }
+
+.main-content .white-background .typo .paragraphe {
+  color: gray; }
+
+#-name- .clr-1 {
+  background-color: gray; }
+
+#-name- .clr-2 {
+  background-color: #286DF0; }
+
+#-name- .clr-3 {
+  background-color: gray; }
+
+#-name-0 .clr-1 {
+  background-color: #E13128; }
+
+#-name-0 .clr-2 {
+  background-color: white; }
+
+#-name-0 .clr-3 {
+  background-color: #286DF0; }
+
+#-palette-0 .white-background .button .primary {
+  background-color: #61b5f6;
+  color: white; }
+
+#-palette-0 .white-background .button .secondary {
+  color: #61b5f6; }
+
+#-palette-0 .white-background .button .forth {
+  background-color: #E13128;
+  color: white; }
+
+#-palette-0 .white-background .icons i {
+  color: #E13128; }
+
+#-palette-0 .white-background .typo .subtitle {
+  color: #E13128; }
+
+#-palette-0 .white-background .typo .link {
+  color: #286DF0; }
+
+#-palette-0 .white-background .nav-type a {
+  color: #286DF0; }
+
+#-palette-0 .colored-background {
+  background-color: #E13128; }
+  #-palette-0 .colored-background .button .primary {
+    background-color: #61b5f6;
+    color: white; }
+  #-palette-0 .colored-background .button .secondary {
+    color: #E13128; }
+  #-palette-0 .colored-background .icons .primary {
+    color: #61b5f6; }
+
+#-name-1 .clr-1 {
+  background-color: #042c4c; }
+
+#-name-1 .clr-2 {
+  background-color: #61b5f6; }
+
+#-name-1 .clr-3 {
+  background-color: #efc239; }
+
+#-palette-1 .white-background .button .primary {
+  background-color: #042c4c;
+  color: white; }
+
+#-palette-1 .white-background .button .secondary {
+  color: #042c4c; }
+
+#-palette-1 .white-background .button .forth {
+  background-color: #042c4c;
+  color: white; }
+
+#-palette-1 .white-background .icons i {
+  color: #efc239; }
+
+#-palette-1 .white-background .typo .subtitle {
+  color: #efc239; }
+
+#-palette-1 .white-background .typo .link {
+  color: #61b5f6; }
+
+#-palette-1 .white-background .nav-type a {
+  color: #61b5f6; }
+
+#-palette-1 .colored-background {
+  background-color: #042c4c; }
+  #-palette-1 .colored-background .button .primary {
+    background-color: #042c4c;
+    color: white; }
+  #-palette-1 .colored-background .button .secondary {
+    color: #efc239; }
+  #-palette-1 .colored-background .icons .primary {
+    color: #042c4c; }
+
+#-name-2 .clr-1 {
+  background-color: #5C63FB; }
+
+#-name-2 .clr-2 {
+  background-color: #ff9751; }
+
+#-name-2 .clr-3 {
+  background-color: #181E40; }
+
+#-palette-2 .white-background .button .primary {
+  background-color: #5C63FB;
+  color: white; }
+
+#-palette-2 .white-background .button .secondary {
+  color: #5C63FB; }
+
+#-palette-2 .white-background .button .forth {
+  background-color: #181E40;
+  color: white; }
+
+#-palette-2 .white-background .icons i {
+  color: #ff9751; }
+
+#-palette-2 .white-background .typo .subtitle {
+  color: #ff9751; }
+
+#-palette-2 .white-background .typo .link {
+  color: #5C63FB; }
+
+#-palette-2 .white-background .nav-type a {
+  color: #5C63FB; }
+
+#-palette-2 .colored-background {
+  background-color: #181E40; }
+  #-palette-2 .colored-background .button .primary {
+    background-color: #5C63FB;
+    color: white; }
+  #-palette-2 .colored-background .button .secondary {
+    color: #ff9751; }
+  #-palette-2 .colored-background .icons .primary {
+    color: #5C63FB; }
+
+#-name-3 .clr-1 {
+  background-color: #36ADA8; }
+
+#-name-3 .clr-2 {
+  background-color: #ff5c37; }
+
+#-name-3 .clr-3 {
+  background-color: #272C51; }
+
+#-palette-3 .white-background .button .primary {
+  background-color: #36ADA8;
+  color: white; }
+
+#-palette-3 .white-background .button .secondary {
+  color: #36ADA8; }
+
+#-palette-3 .white-background .button .forth {
+  background-color: #272C51;
+  color: white; }
+
+#-palette-3 .white-background .icons i {
+  color: #ff5c37; }
+
+#-palette-3 .white-background .typo .subtitle {
+  color: #ff5c37; }
+
+#-palette-3 .white-background .typo .link {
+  color: #272C51; }
+
+#-palette-3 .white-background .nav-type a {
+  color: #272C51; }
+
+#-palette-3 .colored-background {
+  background-color: #272C51; }
+  #-palette-3 .colored-background .button .primary {
+    background-color: #36ADA8;
+    color: white; }
+  #-palette-3 .colored-background .button .secondary {
+    color: #ff5c37; }
+  #-palette-3 .colored-background .icons .primary {
+    color: #36ADA8; }
+
+#-name-4 .clr-1 {
+  background-color: #16CF8F; }
+
+#-name-4 .clr-2 {
+  background-color: #5C63FB; }
+
+#-name-4 .clr-3 {
+  background-color: #4B50CB; }
+
+#-palette-4 .white-background .button .primary {
+  background-color: #16CF8F;
+  color: white; }
+
+#-palette-4 .white-background .button .secondary {
+  color: #16CF8F; }
+
+#-palette-4 .white-background .button .forth {
+  background-color: #4B50CB;
+  color: white; }
+
+#-palette-4 .white-background .icons i {
+  color: #5C63FB; }
+
+#-palette-4 .white-background .typo .subtitle {
+  color: #5C63FB; }
+
+#-palette-4 .white-background .typo .link {
+  color: #22244F; }
+
+#-palette-4 .white-background .nav-type a {
+  color: #22244F; }
+
+#-palette-4 .colored-background {
+  background-color: #4B50CB; }
+  #-palette-4 .colored-background .button .primary {
+    background-color: #16CF8F;
+    color: white; }
+  #-palette-4 .colored-background .button .secondary {
+    color: #5C63FB; }
+  #-palette-4 .colored-background .icons .primary {
+    color: #16CF8F; }
+
+#-name-5 .clr-1 {
+  background-color: #FDCB31; }
+
+#-name-5 .clr-2 {
+  background-color: #FDCB31; }
+
+#-name-5 .clr-3 {
+  background-color: #2F89E2; }
+
+#-palette-5 .white-background .button .primary {
+  background-color: #FDCB31;
+  color: white; }
+
+#-palette-5 .white-background .button .secondary {
+  color: #FDCB31; }
+
+#-palette-5 .white-background .button .forth {
+  background-color: #2F89E2;
+  color: white; }
+
+#-palette-5 .white-background .icons i {
+  color: #2F89E2; }
+
+#-palette-5 .white-background .typo .subtitle {
+  color: #2F89E2; }
+
+#-palette-5 .white-background .typo .link {
+  color: #2F89E2; }
+
+#-palette-5 .white-background .nav-type a {
+  color: #2F89E2; }
+
+#-palette-5 .colored-background {
+  background-color: #2F89E2; }
+  #-palette-5 .colored-background .button .primary {
+    background-color: #FDCB31;
+    color: white; }
+  #-palette-5 .colored-background .button .secondary {
+    color: #2F89E2; }
+  #-palette-5 .colored-background .icons .primary {
+    color: #FDCB31; }
+
+#-name-6 .clr-1 {
+  background-color: #409259; }
+
+#-name-6 .clr-2 {
+  background-color: #064862; }
+
+#-name-6 .clr-3 {
+  background-color: #4FBAD5; }
+
+#-palette-6 .white-background .button .primary {
+  background-color: #409259;
+  color: white; }
+
+#-palette-6 .white-background .button .secondary {
+  color: #409259; }
+
+#-palette-6 .white-background .button .forth {
+  background-color: #4FBAD5;
+  color: white; }
+
+#-palette-6 .white-background .icons i {
+  color: #4FBAD5; }
+
+#-palette-6 .white-background .typo .subtitle {
+  color: #4FBAD5; }
+
+#-palette-6 .white-background .typo .link {
+  color: #064862; }
+
+#-palette-6 .white-background .nav-type a {
+  color: #064862; }
+
+#-palette-6 .colored-background {
+  background-color: #4FBAD5; }
+  #-palette-6 .colored-background .button .primary {
+    background-color: #409259;
+    color: white; }
+  #-palette-6 .colored-background .button .secondary {
+    color: #4FBAD5; }
+  #-palette-6 .colored-background .icons .primary {
+    color: #409259; }
+
+#-name-7 .clr-1 {
+  background-color: #59D1D2; }
+
+#-name-7 .clr-2 {
+  background-color: #237DA0; }
+
+#-name-7 .clr-3 {
+  background-color: #ffce04; }
+
+#-palette-7 .white-background .button .primary {
+  background-color: #59D1D2;
+  color: white; }
+
+#-palette-7 .white-background .button .secondary {
+  color: #59D1D2; }
+
+#-palette-7 .white-background .button .forth {
+  background-color: #ffce04;
+  color: white; }
+
+#-palette-7 .white-background .icons i {
+  color: #ffce04; }
+
+#-palette-7 .white-background .typo .subtitle {
+  color: #ffce04; }
+
+#-palette-7 .white-background .typo .link {
+  color: #237DA0; }
+
+#-palette-7 .white-background .nav-type a {
+  color: #237DA0; }
+
+#-palette-7 .colored-background {
+  background-color: #ffce04; }
+  #-palette-7 .colored-background .button .primary {
+    background-color: #59D1D2;
+    color: white; }
+  #-palette-7 .colored-background .button .secondary {
+    color: #ffce04; }
+  #-palette-7 .colored-background .icons .primary {
+    color: #59D1D2; }
+
+#-name-8 .clr-1 {
+  background-color: #934CF6; }
+
+#-name-8 .clr-2 {
+  background-color: #EB6565; }
+
+#-name-8 .clr-3 {
+  background-color: #161E25; }
+
+#-palette-8 .white-background .button .primary {
+  background-color: #934CF6;
+  color: white; }
+
+#-palette-8 .white-background .button .secondary {
+  color: #934CF6; }
+
+#-palette-8 .white-background .button .forth {
+  background-color: #161E25;
+  color: white; }
+
+#-palette-8 .white-background .icons i {
+  color: #EB6565; }
+
+#-palette-8 .white-background .typo .subtitle {
+  color: #EB6565; }
+
+#-palette-8 .white-background .typo .link {
+  color: #161E25; }
+
+#-palette-8 .white-background .nav-type a {
+  color: #161E25; }
+
+#-palette-8 .colored-background {
+  background-color: #161E25; }
+  #-palette-8 .colored-background .button .primary {
+    background-color: #934CF6;
+    color: white; }
+  #-palette-8 .colored-background .button .secondary {
+    color: #EB6565; }
+  #-palette-8 .colored-background .icons .primary {
+    color: #934CF6; }
+
+#-name-9 .clr-1 {
+  background-color: #E83D79; }
+
+#-name-9 .clr-2 {
+  background-color: #F9C953; }
+
+#-name-9 .clr-3 {
+  background-color: #E83D79; }
+
+#-palette-9 .white-background .button .primary {
+  background-color: #F9C953;
+  color: white; }
+
+#-palette-9 .white-background .button .secondary {
+  color: #F9C953; }
+
+#-palette-9 .white-background .button .forth {
+  background-color: #E83D79;
+  color: white; }
+
+#-palette-9 .white-background .icons i {
+  color: #E83D79; }
+
+#-palette-9 .white-background .typo .subtitle {
+  color: #E83D79; }
+
+#-palette-9 .white-background .typo .link {
+  color: #2F89E2; }
+
+#-palette-9 .white-background .nav-type a {
+  color: #2F89E2; }
+
+#-palette-9 .colored-background {
+  background-color: #E83D79; }
+  #-palette-9 .colored-background .button .primary {
+    background-color: #F9C953;
+    color: white; }
+  #-palette-9 .colored-background .button .secondary {
+    color: #E83D79; }
+  #-palette-9 .colored-background .icons .primary {
+    color: #F9C953; }
