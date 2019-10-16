@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="css/palette-theme.css">
     </head>
     <body> 
-        <header class="header justify-content-md-between text-center">
+        <header class="header-nav justify-content-md-between text-center">
             <nav>
                 <div class="logo">
                     <a href="Index.html">
@@ -45,7 +45,7 @@
             <div class="palette-board text-center py-3">
                 <strong>Select a Palette :</strong>
                 <div class="palette ml-4">
-                    <div class="current-palette" id="-name-" style="float: left">
+                    <div class="current-palette" id="-name-0" style="float: left">
                         <span class="clr-1"></span>
                         <span class="clr-2"></span>
                         <span class="clr-3"></span>
@@ -119,89 +119,1058 @@
                 <i class="fa fa-link mr-1"></i>Export Palette</button>
             </a> 
         </header>
-         <div class="clearfix" style="clear: both;"></div>  
-        <main>
-            <div class="row main-content" id="-palette-">
-                <section class="white-background col-md-6 p-5">
-                        <div class="button">
-                            <button type="button" class="btn mr-2 primary"><span><i class="fa fa-apple mr-2"></i>DOWNLOAD</span></button>
-                            <button type="button" class="btn btn-outline secondary mt-3 ml-2 mt-md-0"><span><i class="fa fa-play mr-2"></i>Play</span></button>
-                            <button type="button" class="btn forth"><span>Subscribe</span></button>
-                        </div>
-                        <div class="icons mt-5">
-                            <i class="fa fa-bell small"></i>
-                            <i class="fa fa-calendar small"></i>
-                            <i class="fa fa-check-circle small"></i>
-                            <i class="fa fa-edit large"></i>
-                            <i class="fa fa-envelope large"></i>
-                            <i class="fa fa-exclamation-circle large"></i>
-                        </div>
-                        <nav class="nav-type py-3 primary">
-                            <a href="#" class="px-2">Home</a>
-                            <a href="#" class="px-2">Work</a>
-                            <a href="#" class="px-2">Service</a>
-                            <a href="#" class="px-2">About</a>
-                            <a href="#" class="px-2">Blog</a>
-                            <a href="#" class="px-2">Contact</a>
-                        </nav>
-                        <div class="typo mt-3">
-                            <h2 class="title h1">The quick brown fox</h2>
-                            <h3 class="subtitle h5">The quick brown fox jumps over the lazy dog</h3>
-                            <p class="paragraphe">"The quick brown fox jumps over the lazy dog" is an 
-                                English-language pangram—a sentence that contains all of 
-                                the letters of the alphabet</p>
-                                <ul class="list mt-4">
-                                    <li>The quick brown fox</li>
-                                    <li>jumps over the lazy dog</li>
-                                    <li>English-language pangram</li>
-                                </ul>
-                                <a href="#" class="link">the letters of the alphabet</a>
-                        </div>                       
-                </section>
-                <section class="colored-background col-md-6 p-5 bc-blue">
-                            <div class="button">
-                                    <button type="button" class="btn mr-2 secondary"><span><i class="fa fa-apple mr-2"></i>DOWNLOAD</span></button>
-                                    <button type="button" class="btn btn-outline mt-3 ml-2 mt-md-0"><span><i class="fa fa-play mr-2"></i>Play</span></button>
-                                    <button type="button" class="btn primary"><span>Subscribe</span></button>
+        <div class="clearfix" style="clear: both;"></div>  
+        <main class="main-content" id="ui-palette-0">
+                <ul class="tabs">
+                    <strong class="title">UI Elements :</strong>
+                    <li><a href="#Header-tab">Header</a></li>
+                    <li class="tab-active"><a href="#CTA-tab">Call To Action</a></li>
+                    <li><a href="#features-tab">Features</a></li>
+                    <li><a href="#navigation-tab">Navigation</a></li>
+                    <li><a href="#footer-tab">Footer</a></li>
+                </ul>
+                <div class="tabs-stage">
+                    <div class="content" id="navigation-tab" >
+                        <div class="ui-holder" >
+                            <div class="container">
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                        </div>
+                                        <nav class="navbar navbar-center">
+                                                <div class="container">
+                                                    <a href="#" class="logo">
+                                                        <div class="logo_container">
+                                                            <img src="img/logo-dark.png" alt="brand">
+                                                        </div>
+                                                    </a>
+                                                    <div class="navbar_toggle">
+                                                        <button href="#" class="navbar_toggle_button">
+                                                            <i class="fa fa-bars"></i>
+                                                            <i class="fa fa-times"></i>
+                                                        </button>
+                                                    </div>
+                                                    <div class="navbar_content">
+                                                        <div class="navbar_content_wrapper">
+                                                            <ul class="navbar_content_items mb-4 mb-lg-0">
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Home</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Features</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Pricing</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">About</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="navbar_actions mb-4 mb-lg-0">
+                                                                <button href="#" class="navbar_actions_button btn prime">Create an acount</button>
+                                                                <button href="#" class="navbar_actions_button btn fourth">Log In</button>
+                                                            </div>     
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </nav>
                                 </div>
-                                <div class="icons mt-5">
-                                    <i class="fa fa-bell small"></i>
-                                    <i class="fa fa-calendar small "></i>
-                                    <i class="fa fa-check-circle small"></i>
-                                    <i class="fa fa-edit large"></i>
-                                    <i class="fa fa-envelope large"></i>
-                                    <i class="fa fa-exclamation-circle large"></i>
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                        <div class="circles">
+                                            <span class="first-circle"></span>
+                                            <span class="second-circle"></span>
+                                        </div>
+                                    </div>
+                                    <nav class="navbar navbar-center">
+                                        <div class="container">
+                                            <a href="#" class="logo">
+                                                <div class="logo_container">
+                                                    <img src="img/logo-dark.png" alt="brand">
+                                                </div>
+                                            </a>
+                                            <div class="navbar_toggle">
+                                                <button href="#" class="navbar_toggle_button">
+                                                    <i class="fa fa-bars"></i>
+                                                    <i class="fa fa-times"></i>
+                                                </button>
+                                            </div>
+                                                <div class="navbar_content">
+                                                    <div class="navbar_content_wrapper">
+                                                        <ul class="navbar_content_items mb-4 mb-lg-0">
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link third">Home</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link third">Features</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link third">Pricing</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link third">About</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link third">Contact</a>
+                                                                    </li>
+                                                        </ul>
+                                                    <div class="navbar_actions mb-4 mb-lg-0">
+                                                        <button href="#" class="navbar_actions_button btn btn-outline second">Create an acount</button>
+                                                        <button href="#" class="navbar_actions_button btn prime">Log In</button>
+                                                    </div>     
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </nav>
                                 </div>
-                                <nav class="nav-type py-3">
-                                    <a href="#" class="px-2">Home</a>
-                                    <a href="#" class="px-2">Work</a>
-                                    <a href="#" class="px-2">Service</a>
-                                    <a href="#" class="px-2">About</a>
-                                    <a href="#" class="px-2">Blog</a>
-                                    <a href="#" class="px-2">Contact</a>
-                                </nav>
-                                <div class="typo mt-3">
-                                    <h2 class="title h1">The quick brown fox </h2>
-                                    <h3 class="subtitle h5">The quick brown fox jumps over the lazy dog</h3>
-                                    <p class="paragraphe">"The quick brown fox jumps over the lazy dog" is an 
-                                        English-language pangram—a sentence that contains all of 
-                                        the letters of the alphabet</p>
-                                        <a href="#" class="link">the letters of the alphabet</a>
-                                        <ul class="list mt-4">
-                                            <li>- The quick brown fox</li>
-                                            <li>- jumps over the lazy dog</li>
-                                            <li>- English-language pangram</li>
-                                        </ul>
-                                        
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                        <div class="circles">
+                                            <span class="first-circle"></span>
+                                            <span class="second-circle"></span>
+                                        </div>
+                                    </div>
+                                    <nav class="navbar navbar-center navbar-dark fourth">
+                                            <div class="container">
+                                                <a href="#" class="logo">
+                                                    <div class="logo_container">
+                                                        <img src="img/logo.png" alt="brand">
+                                                    </div>
+                                                </a>
+                                                <div class="navbar_toggle">
+                                                    <button href="#" class="navbar_toggle_button">
+                                                        <i class="fa fa-bars"></i>
+                                                        <i class="fa fa-times"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="navbar_content">
+                                                    <div class="navbar_content_wrapper">
+                                                        <ul class="navbar_content_items mb-4 mb-lg-0">
+                                                            <li class="navbar_content_item">
+                                                                <a href="#" class="navbar_link">Home</a>
+                                                            </li>
+                                                            <li class="navbar_content_item">
+                                                                <a href="#" class="navbar_link">Features</a>
+                                                            </li>
+                                                            <li class="navbar_content_item">
+                                                                <a href="#" class="navbar_link">Pricing</a>
+                                                            </li>
+                                                            <li class="navbar_content_item">
+                                                                <a href="#" class="navbar_link">About</a>
+                                                            </li>
+                                                            <li class="navbar_content_item">
+                                                                <a href="#" class="navbar_link">Contact</a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="navbar_actions mb-4 mb-lg-0">
+                                                            <button href="#" class="navbar_actions_button btn btn-prime">Create an acount</button>
+                                                            <button href="#" class="navbar_actions_button btn btn-prime">Log In</button>
+                                                        </div>     
+                                                    </div>
+                                                </div>
+                                            </div>
+                                      </nav>
+                                </div>
+                                <div class="browser-mockup">
+                                        <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                        </div>
+                                        <nav class="navbar navbar-center navbar-dark prime">
+                                                <div class="container">
+                                                    <a href="#" class="logo">
+                                                        <div class="logo_container">
+                                                            <img src="img/logo.png" alt="brand">
+                                                        </div>
+                                                    </a>
+                                                    <div class="navbar_toggle">
+                                                        <button href="#" class="navbar_toggle_button">
+                                                            <i class="fa fa-bars"></i>
+                                                            <i class="fa fa-times"></i>
+                                                        </button>
+                                                    </div>
+                                                    <div class="navbar_content">
+                                                        <div class="navbar_content_wrapper">
+                                                            <ul class="navbar_content_items mb-4 mb-lg-0">
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Home</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Features</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Pricing</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">About</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="navbar_actions mb-4 mb-lg-0">
+                                                                <button href="#" class="navbar_actions_button btn fourth">Create an acount</button>
+                                                                <button href="#" class="navbar_actions_button btn ">Log In</button>
+                                                            </div>     
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                          </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content" id="Header-tab" >
+                        <div class="ui-holder" >
+                            <div class="container">
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                        <div class="circles">
+                                            <span class="first-circle"></span>
+                                            <span class="second-circle"></span>
+                                        </div>
+                                    </div>
+                                    <header class="header header-mdl2 hero-overflow dark fourth">
+                                            <nav class="navbar navbar-center navbar-overlay">
+                                              <div class="container">
+                                                  <a href="#" class="logo">
+                                                      <div class="logo_container">
+                                                          <img src="img/logo.png" alt="brand">
+                                                      </div>
+                                                  </a>
+                                                  <div class="navbar_toggle">
+                                                      <button href="#" class="navbar_toggle_button">
+                                                          <i class="fa fa-bars"></i>
+                                                          <i class="fa fa-times"></i>
+                                                      </button>
+                                                  </div>
+                                                  <div class="navbar_content">
+                                                      <div class="navbar_content_wrapper">
+                                                          <ul class="navbar_content_items mb-4 mb-lg-0">
+                                                              <li class="navbar_content_item">
+                                                                  <a href="#" class="navbar_link">Home</a>
+                                                              </li>
+                                                              <li class="navbar_content_item">
+                                                                  <a href="#" class="navbar_link">Features</a>
+                                                              </li>
+                                                              <li class="navbar_content_item">
+                                                                  <a href="#" class="navbar_link">Pricing</a>
+                                                              </li>
+                                                              <li class="navbar_content_item">
+                                                                  <a href="#" class="navbar_link">About</a>
+                                                              </li>
+                                                              <li class="navbar_content_item">
+                                                                  <a href="#" class="navbar_link">Contact</a>
+                                                              </li>
+                                                          </ul>
+                                                          <div class="navbar_actions mb-4 mb-lg-0">
+                                                              <button href="#" class="navbar_actions_button btn prime">Log In</button>
+                                                          </div>
+                                                          <div class="navbar_search">
+                                                              <form action="">
+                                                                  <input class="navbar_search_input" type="search" name="googlesearch" placeholder="search">
+                                                                  <input class="navbar_search_submit"  type="submit">
+                                                                  <button href="#" class="navbar_search_button">
+                                                                      <i class="fa fa-search"></i>
+                                                                  </button>
+                                                              </form>
+                                                          </div>      
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                            </nav>
+                                            <div class="container mt-lg-5 pt-3">
+                                                <div class="column">
+                                                    <div class="main_content col align-self-center text-center">
+                                                        <h1 class="heading h1">Be More Productive Working Online</h1>
+                                                        <p class="paragr">Webpages are the new documents, Captain Design makes sure you can always find them back.</p>
+                                                        <div class="cta-btn mt-5">  
+                                                            <button type="button" class="btn btn-prime mb-2 prime">Try First Order for Free</button>
+                                                            <button type="button" class="btn btn-outline mb-2 btn-o-square" >
+                                                              <span>Play video</span></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main_media col mt-lg-5 pt-3 align-self-end">
+                                                        <div class=" picture-mockup-md">
+                                                            <div class="placeholder text-center">
+                                                                <img src="img/saas-img/feature-3.jpg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                    </header>
+                                </div>
+                                <div class="browser-mockup">
+                                        <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                        </div>
+                                        <header class="header header-mdl12 hero ">
+                                                <nav class="navbar navbar-center">
+                                                      <div class="container">
+                                                          <a href="#" class="logo">
+                                                              <div class="logo_container">
+                                                                  <img src="img/logo-dark.png" alt="brand">
+                                                              </div>
+                                                          </a>
+                                                          <div class="navbar_toggle">
+                                                              <button href="#" class="navbar_toggle_button">
+                                                                  <i class="fa fa-bars"></i>
+                                                                  <i class="fa fa-times"></i>
+                                                              </button>
+                                                          </div>
+                                                          <div class="navbar_content">
+                                                              <div class="navbar_content_wrapper">
+                                                                  <ul class="navbar_content_items mb-4 mb-lg-0">
+                                                                      <li class="navbar_content_item">
+                                                                          <a href="#" class="navbar_link">Home</a>
+                                                                      </li>
+                                                                      <li class="navbar_content_item">
+                                                                          <a href="#" class="navbar_link">Features</a>
+                                                                      </li>
+                                                                      <li class="navbar_content_item">
+                                                                          <a href="#" class="navbar_link">Pricing</a>
+                                                                      </li>
+                                                                      <li class="navbar_content_item">
+                                                                          <a href="#" class="navbar_link">About</a>
+                                                                      </li>
+                                                                      <li class="navbar_content_item">
+                                                                          <a href="#" class="navbar_link">Contact</a>
+                                                                      </li>
+                                                                  </ul>
+                                                                  <div class="navbar_actions mb-4 mb-lg-0">
+                                                                      <button href="#" class="navbar_actions_button btn prime">Log In</button>
+                                                                  </div>
+                                                                  <div class="navbar_search">
+                                                                      <form action="">
+                                                                          <input class="navbar_search_input" type="search" name="googlesearch" placeholder="search">
+                                                                          <input class="navbar_search_submit"  type="submit">
+                                                                          <button href="#" class="navbar_search_button">
+                                                                              <i class="fa fa-search"></i>
+                                                                          </button>
+                                                                      </form>
+                                                                  </div>      
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                </nav> 
+                                                <div class="container my-5">
+                                                  <div class="row">
+                                                    <div class="main_content text-center align-self-center col-12 col-md-6 col-lg-6 p-md-5 p-4 text-md-left ">
+                                                        <h1 class="heading h2">Be More Productive Working Online</h1>
+                                                        <p class="paragr pb-4">Webpages are the new documents, Captain Design 
+                                                            makes sure you can always find them back.</p>
+                                                        <div class="cta-btn">  
+                                                          <button type="button" class="btn prime mb-2 mr-1"><span>Get Started Free!</span></button>
+                                                          <button type="button" class="btn btn-outline mb-2 prime"><span>Play video</span></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="main_media col-12 col-md-6 align-items-sm-stretch">
+                                                      <div class="mockup-hero">
+                                                        <img class="" src="img/saas-img/feature-2-.JPG">
+                                                      </div>
+                                                    </div>
+                                                  </div>  
+                                                </div>
+                                        </header>
+                                </div>
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                        <div class="circles">
+                                            <span class="first-circle"></span>
+                                            <span class="second-circle"></span>
+                                        </div>
+                                    </div>
+                                    <header class="header header-mdl11 hero">
+                                            <nav class="navbar navbar-center">
+                                                <div class="container">
+                                                    <a href="#" class="logo">
+                                                        <div class="logo_container">
+                                                            <img src="img/logo-dark.png" alt="brand">
+                                                        </div>
+                                                    </a>
+                                                    <div class="navbar_toggle">
+                                                        <button href="#" class="navbar_toggle_button">
+                                                            <i class="fa fa-bars"></i>
+                                                            <i class="fa fa-times"></i>
+                                                        </button>
+                                                    </div>
+                                                    <div class="navbar_content">
+                                                        <div class="navbar_content_wrapper">
+                                                            <ul class="navbar_content_items mb-4 mb-lg-0">
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Home</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Features</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Pricing</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">About</a>
+                                                                </li>
+                                                                <li class="navbar_content_item">
+                                                                    <a href="#" class="navbar_link">Contact</a>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="navbar_actions mb-4 mb-lg-0">
+                                                                <button href="#" class="navbar_actions_button btn fourth">Log In</button>
+                                                            </div>
+                                                            <div class="navbar_search">
+                                                                <form action="">
+                                                                    <input class="navbar_search_input" type="search" name="googlesearch" placeholder="search">
+                                                                    <input class="navbar_search_submit"  type="submit">
+                                                                    <button href="#" class="navbar_search_button">
+                                                                        <i class="fa fa-search"></i>
+                                                                    </button>
+                                                                </form>
+                                                            </div>      
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </nav> 
+                                            <div class="container my-3 my-lg-5 mx-md-5">
+                                              <div class="row">
+                                                <div class="main_content col-lg-5 col-xl-4 align-self-center text-center text-lg-left">
+                                                  <h1 class="heading h2 third">Be More Productive Working Online</h1>
+                                                  <p class="paragr pb-4">Webpages are the new documents, Captain Design makes 
+                                                      sure you can always find them back.</p>
+                                                  <div class="cta-btn">  
+                                                    <button type="button" class="btn fourth mb-2 mr-1" ><span >Get Started Free!</span></button>
+                                                    <button type="button" class="btn btn-outline mb-2 btn-o-square prime" ><span>Play video</span></button>
+                                                  </div>
+                                                </div>
+                                                <div class="main_media col-lg-7 text-center mt-3 ml-lg-auto">
+                                                  <img class="" src="img/saas-img/feature-2-.JPG">
+                                                </div>
+                                              </div>  
+                                            </div>
+                                    </header>
+                                </div>
+                                <div class="browser-mockup">
+                                        <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                        </div>
+                                        <header class="header header-mdl11 hero">
+                                                <nav class="navbar navbar-center">
+                                                    <div class="container">
+                                                        <a href="#" class="logo">
+                                                            <div class="logo_container">
+                                                                <img src="img/logo-dark.png" alt="brand">
+                                                            </div>
+                                                        </a>
+                                                        <div class="navbar_toggle">
+                                                            <button href="#" class="navbar_toggle_button">
+                                                                <i class="fa fa-bars"></i>
+                                                                <i class="fa fa-times"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="navbar_content">
+                                                            <div class="navbar_content_wrapper">
+                                                                <ul class="navbar_content_items mb-4 mb-lg-0">
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Home</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Features</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Pricing</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">About</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Contact</a>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="navbar_actions mb-4 mb-lg-0">
+                                                                    <button href="#" class="navbar_actions_button btn prime">Log In</button>
+                                                                </div>
+                                                                <div class="navbar_search">
+                                                                    <form action="">
+                                                                        <input class="navbar_search_input" type="search" name="googlesearch" placeholder="search">
+                                                                        <input class="navbar_search_submit"  type="submit">
+                                                                        <button href="#" class="navbar_search_button">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </button>
+                                                                    </form>
+                                                                </div>      
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </nav> 
+                                                <div class="container my-3 my-lg-5 mx-md-5">
+                                                  <div class="row">
+                                                    <div class="main_content col-lg-5 col-xl-4 align-self-center text-center text-lg-left">
+                                                      <h1 class="heading h2 second">Be More Productive Working Online</h1>
+                                                      <p class="paragr pb-4">Webpages are the new documents, Captain Design makes 
+                                                          sure you can always find them back.</p>
+                                                      <div class="cta-btn">  
+                                                        <button type="button" class="btn prime mb-2 mr-1" ><span >Get Started Free!</span></button>
+                                                        <button type="button" class="btn btn-outline mb-2 btn-o-square prime" ><span>Play video</span></button>
+                                                      </div>
+                                                    </div>
+                                                    <div class="main_media col-lg-7 text-center mt-3 ml-lg-auto">
+                                                      <img class="" src="img/saas-img/feature-2-.JPG">
+                                                    </div>
+                                                  </div>  
+                                                </div>
+                                            </header>
                                 </div>   
-                </section>
-            </div>
+                                <div class="browser-mockup">
+                                        <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                        </div>
+                                        <header class="header header-mdl6 hero fourth">
+                                                <nav class="navbar navbar-center navbar-overlay">
+                                                    <div class="container">
+                                                        <a href="#" class="logo">
+                                                            <div class="logo_container">
+                                                                <img src="img/logo.png" alt="brand">
+                                                            </div>
+                                                        </a>
+                                                        <div class="navbar_toggle">
+                                                            <button href="#" class="navbar_toggle_button">
+                                                                <i class="fa fa-bars"></i>
+                                                                <i class="fa fa-times"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="navbar_content">
+                                                            <div class="navbar_content_wrapper">
+                                                                <ul class="navbar_content_items mb-4 mb-lg-0">
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Home</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Features</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Pricing</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">About</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Contact</a>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="navbar_actions mb-4 mb-lg-0">
+                                                                    <button href="#" class="navbar_actions_button btn prime">Log In</button>
+                                                                </div>
+                                                                <div class="navbar_search">
+                                                                    <form action="">
+                                                                        <input class="navbar_search_input" type="search" name="googlesearch" placeholder="search">
+                                                                        <input class="navbar_search_submit"  type="submit">
+                                                                        <button href="#" class="navbar_search_button">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </button>
+                                                                    </form>
+                                                                </div>      
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </nav> 
+                                                <div class="container d-flex justify-content-center my-5 py-5 mt-lg-5">
+                                                    <div class="row justify-content-center">
+                                                        <div class="main_content col-md-8 align-self-center text-center">
+                                                            <h1 class="heading h1 mb-5">Be More Productive Working Online</h1>
+                                                            <a href="#video" rel="modal:open">
+                                                                <button type="button" class="btn prime md-btn-circle fa fa-play "> </button>
+                                                            </a>
+                                                            <h5 class="sub_heading h5 mt-5">Webpages are the new documents, Captain Design makes sure you can always find them back.</h5>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                        </header>
+                                </div>
+                                <div class="browser-mockup">
+                                        <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                        </div>
+                                        <header class="header header-mdl6 hero fourth">
+                                                <div class="bg-hero" style="background-image: url('img/Hero.jpeg');opacity:0.8;"></div>
+                                                <nav class="navbar navbar-center navbar-overlay">
+                                                    <div class="container">
+                                                        <a href="#" class="logo">
+                                                            <div class="logo_container">
+                                                                <img src="img/logo.png" alt="brand">
+                                                            </div>
+                                                        </a>
+                                                        <div class="navbar_toggle">
+                                                            <button href="#" class="navbar_toggle_button">
+                                                                <i class="fa fa-bars"></i>
+                                                                <i class="fa fa-times"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="navbar_content">
+                                                            <div class="navbar_content_wrapper">
+                                                                <ul class="navbar_content_items mb-4 mb-lg-0">
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Home</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Features</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Pricing</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">About</a>
+                                                                    </li>
+                                                                    <li class="navbar_content_item">
+                                                                        <a href="#" class="navbar_link">Contact</a>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="navbar_actions mb-4 mb-lg-0">
+                                                                    <button href="#" class="navbar_actions_button btn prime">Log In</button>
+                                                                </div>
+                                                                <div class="navbar_search">
+                                                                    <form action="">
+                                                                        <input class="navbar_search_input" type="search" name="googlesearch" placeholder="search">
+                                                                        <input class="navbar_search_submit"  type="submit">
+                                                                        <button href="#" class="navbar_search_button">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </button>
+                                                                    </form>
+                                                                </div>      
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </nav> 
+                                                <div class="container d-flex justify-content-center my-5 py-5 mt-lg-5">
+                                                    <div class="row justify-content-center">
+                                                        <div class="main_content col-md-8 align-self-center text-center">
+                                                            <h1 class="heading h1 mb-5">Be More Productive Working Online</h1>
+                                                            <a href="#video" rel="modal:open">
+                                                                <button type="button" class="btn fourth md-btn-circle fa fa-play "> </button>
+                                                            </a>
+                                                            <h5 class="sub_heading h5 mt-5">Webpages are the new documents, Captain Design makes sure you can always find them back.</h5>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                        </header>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content" id="CTA-tab" >
+                        <div class="ui-holder" >
+                            <div class="container">
+                                <div class="browser-mockup">
+                                        <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                        </div>
+                                        <section class="callToAction py-5 col-md-12 text-center">
+                                            <h2 class="heading h3 ">The quick brown fox</h2>
+                                            <p class="paragr h5">"The quick brown fox jumps over the lazy dog" is an English-language pangram—a sentence </p>
+                                            <div class="cta-btn text-center">
+                                                <button type="button" class="btn btn-outline mr-2 prime"><span><i class="fa fa-apple mr-4"></i>DOWNLOAD ON THE APP STORE</span></button>
+                                                <button type="button" class="btn btn-prime mt-3 ml-2 mt-md-0 fourth"><span><i class="fa fa-play mr-4"></i>Get App on the Google Play</span></button>
+                                            </div>
+                                        </section>
+                                </div>
+                                <div class="browser-mockup">
+                                        <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                        </div>
+                                        <section class="callToAction py-5 fourth col-md-12 text-center">
+                                            <h2 class="heading h3">The quick brown fox</h2>
+                                            <p class="paragr h5">"The quick brown fox jumps over the lazy dog" is an English-language pangram—a sentence .</p>
+                                            <div class="cta-btn text-center">
+                                                <button type="button" class="btn btn-outline mr-2 "><span><i class="fa fa-apple mr-4"></i>DOWNLOAD ON THE APP STORE</span></button>
+                                                <button type="button" class="btn btn-prime mt-3 ml-2 mt-md-0 prime"><span><i class="fa fa-play mr-4"></i>Get App on the Google Play</span></button>
+                                            </div>
+                                        </section>
+                                </div>
+                                <div class="browser-mockup">
+                                        <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                        </div>
+                                        <section class="callToAction py-5 col-md-12 text-center">
+                                            <h2 class="heading h3 second">The quick brown fox</h2>
+                                            <p class="paragr h5">"The quick brown fox jumps over the lazy dog" is an English-language pangram—a sentence </p>
+                                            <div class="cta-btn text-center">
+                                                <button type="button" class="btn btn-outline mr-2 prime"><span><i class="fa fa-apple mr-4"></i>DOWNLOAD ON THE APP STORE</span></button>
+                                                <button type="button" class="btn btn-prime mt-3 ml-2 mt-md-0 prime"><span><i class="fa fa-play mr-4"></i>Get App on the Google Play</span></button>
+                                            </div>
+                                        </section>
+                                </div>
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                        <div class="circles">
+                                            <span class="first-circle"></span>
+                                            <span class="second-circle"></span>
+                                        </div>
+                                    </div>
+                                    <section class="callToAction calltoact-mdl3 py-5 bg-hero fourth">
+                                            <div class="container">
+                                              <div class="row justify-content-center">
+                                                <div class="main_content col col-md-10 text-center">
+                                                    <h2 class="heading h3 mb-5">Are you ready to protect your social media presence?</h2>
+                                                    <div class="row newsletter justify-content-center">
+                                                      <div class="newsletter_form col-lg-8 d-sm-flex">
+                                                        <div class="row">
+                                                          <div class="col-sm-8 px-md-0">
+                                                             <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter your e-mail">
+                                                          </div>
+                                                          <div class="col-sm-4">
+                                                            <button type="submit" class="submit btn prime py-3">Get Started</button>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                    </section>
+                                </div>
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                    </div>
+                                    <section class="callToAction calltoact-mdl3 py-5">
+                                                <div class="container">
+                                                  <div class="row justify-content-center">
+                                                    <div class="main_content col col-md-10 text-center">
+                                                        <h2 class="heading h3 mb-5">Are you ready to protect your social media presence?</h2>
+                                                        <div class="row newsletter justify-content-center">
+                                                          <div class="newsletter_form col-lg-8 d-sm-flex">
+                                                            <div class="row">
+                                                              <div class="col-sm-8 px-md-0">
+                                                                 <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter your e-mail">
+                                                              </div>
+                                                              <div class="col-sm-4">
+                                                                <button type="submit" class="submit btn prime py-3">Get Started</button>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                    </section>
+                                </div>
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                        <div class="circles">
+                                            <span class="first-circle"></span>
+                                            <span class="second-circle"></span>
+                                        </div>
+                                    </div>
+                                    <section class="callToAction calltoact-mdl3 py-5">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="main_content col col-md-10 text-center">
+                                                    <h2 class="heading h3 mb-5 second">Are you ready to protect your social media presence?</h2>
+                                                    <div class="row newsletter justify-content-center">
+                                                        <div class="newsletter_form col-lg-8 d-sm-flex">
+                                                            <div class="row">
+                                                                <div class="col-sm-8 px-md-0">
+                                                                     <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter your e-mail">
+                                                                </div>
+                                                                <div class="col-sm-4">
+                                                                    <button type="submit" class="submit btn fourth py-3">Get Started</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content" id="features-tab" >
+                        <div class="ui-holder" >
+                            <div class="container">
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                        <div class="circles">
+                                            <span class="first-circle"></span>
+                                            <span class="second-circle"></span>
+                                        </div>
+                                    </div>
+                                    <section class="feature-mdl1 features pb-5 mx-md-5">
+                                            <div class="container">
+                                                <h2 class="heading h3 text-center my-5">Zero distraction</h2>
+                                                      <div class="row justify-content-between">
+                                                          <div class="feature col-12 col-md-3 text-center pt-4">
+                                                              <div class="feature_media graphic pb-4 pb-sm-1 pb-lg-4">
+                                                                    <i class="fa fa-paper-plane icn prime"></i>
+                                                              </div>    
+                                                              <div class="feature_content">
+                                                                  <h4 class="title h4 pb-3">Never lose a webpage again</h4>
+                                                                  <p class="paragr">Installing the History Search browser extensions enables you to index the
+                                                                      text of webpages as you browse</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="feature col-12 col-md-3 text-center pt-4">
+                                                              <div class="feature_media graphic pb-4 pb-sm-1 pb-lg-4">
+                                                                    <i class="fa fa-paste icn prime"></i>
+                                                              </div>
+                                                              <div class="feature_content">
+                                                                  <h4 class="title h4 pb-3">Directly open online documents</h4>
+                                                                  <p class="paragr">Indexing webpages enables you to find them back using any words you
+                                                                      remember reading.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="feature col-12 col-md-3 text-center pt-4">
+                                                              <div class="feature_media graphic pb-4 pb-sm-1 pb-lg-4">
+                                                                    <i class="fa fa-copy icn prime"></i>
+                                                              </div>
+                                                              <div class="feature_content">
+                                                                  <h4 class="title h4 pb-3">Search all your webservices</h4>
+                                                                  <p class="paragr">After indexing is complete all you data is stored to your private encrypted
+                                                                      cloud storage.</p>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                    </section>
+                                </div>
+                                <div class="browser-mockup">
+                                        <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                        </div>
+                                        <section class="feature-mdl1 features pb-5 mx-md-5">
+                                            <div class="container">
+                                                <h2 class="heading h3 text-center my-5 third">Zero distraction</h2>
+                                                <div class="row justify-content-between">
+                                                    <div class="feature col-12 col-md-3 text-center pt-4">
+                                                        <div class="feature_media graphic pb-4 pb-sm-1 pb-lg-4">
+                                                            <i class="fa fa-paper-plane icn fourth"></i>
+                                                        </div>    
+                                                        <div class="feature_content">
+                                                            <h4 class="title h4 pb-3">Never lose a webpage again</h4>
+                                                            <p class="paragr">Installing the History Search browser extensions enables you to index the
+                                                            text of webpages as you browse</p>
+                                                        </div>
+                                                    </div>
+                                                <div class="feature col-12 col-md-3 text-center pt-4">
+                                                    <div class="feature_media graphic pb-4 pb-sm-1 pb-lg-4">
+                                                        <i class="fa fa-paste icn fourth"></i>
+                                                    </div>
+                                                    <div class="feature_content">
+                                                        <h4 class="title h4 pb-3">Directly open online documents</h4>
+                                                        <p class="paragr">Indexing webpages enables you to find them back using any words you
+                                                         remember reading.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="feature col-12 col-md-3 text-center pt-4">
+                                                    <div class="feature_media graphic pb-4 pb-sm-1 pb-lg-4">
+                                                            <i class="fa fa-copy icn fourth"></i>
+                                                    </div>
+                                                    <div class="feature_content">
+                                                        <h4 class="title h4 pb-3">Search all your webservices</h4>
+                                                        <p class="paragr">After indexing is complete all you data is stored to your private encrypted
+                                                        cloud storage.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                        <div class="circles">
+                                            <span class="first-circle"></span>
+                                            <span class="second-circle"></span>
+                                        </div>
+                                    </div>
+                                    <section class="features feature-mdl9 py-3 py-md-4">
+                                            <div class="container">
+                                                <div class="feature row align-items-center ">
+                                                        <div class="feature_content col-12 col-md-6  mt-4 p-md-5">
+                                                                <h4 class="sub_title h6 second">CONSULTANTS</h4>
+                                                                <h1 class="title h3 pb-4">Better Relationships, Built In</h1>
+                                                                <p class="paragr">Let your professionalism shine through, free from soul sucking distractions. Jar’s collaboration tools keeps everyone happy, while intuitive organization keeps you on top of every. single. request.</p>
+                                                                <a class="link third" href="#">Explore all benefits for consultants <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                              </div>
+                                                  <div class="feature_media d-block col-12 col-md-5 ml-auto align-items-sm-stretch">
+                                                    <img class="" src="img/saas-img/feature-01.png">
+                                                  </div>
+                                                </div>
+                                            </div>
+                                    </section>
+                                </div>
+                                <div class="browser-mockup">
+                                        <div class="browser-mockup-bar">
+                                            <div class="circles">
+                                                <span class="first-circle"></span>
+                                                <span class="second-circle"></span>
+                                            </div>
+                                        </div>
+                                        <section class="features feature-mdl9 py-3 py-md-4 fourth">
+                                                <div class="container">
+                                                    <div class="feature row align-items-center ">
+                                                            <div class="feature_content col-12 col-md-6  mt-4 p-md-5">
+                                                                    <h4 class="sub_title h6 second">CONSULTANTS</h4>
+                                                                    <h1 class="title h3 pb-4">Better Relationships, Built In</h1>
+                                                                    <p class="paragr">Let your professionalism shine through, free from soul sucking distractions. Jar’s collaboration tools keeps everyone happy, while intuitive organization keeps you on top of every. single. request.</p>
+                                                                    <a class="link" href="#" style="color: #7ec6ff;">Explore all benefits for consultants <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                                  </div>
+                                                      <div class="feature_media d-block col-12 col-md-5 ml-auto align-items-sm-stretch">
+                                                        <img class="" src="img/saas-img/feature-01.png">
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                        </section>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="content" id="footer-tab" >
+                        <div class="ui-holder" >
+                            <div class="container">
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                        <div class="circles">
+                                            <span class="first-circle"></span>
+                                            <span class="second-circle"></span>
+                                        </div>
+                                    </div>
+                                    <footer class="footer-mdl2 footer py-5">
+                                                <div class="container">
+                                                    <div class="top-row">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-md-2 mb-3 text-center text-md-left">
+                                                                    <a href="#" class="logo">
+                                                                        <div class="logo_container">
+                                                                            <img src="img/logo-dark.png">
+                                                                            <small class="d-block text-right second">by Captain design</small>
+                                                                        </div>
+                                                                    </a>
+                                                                </div>   
+                                                                <nav class="links col-md-8 text-center mb-3">
+                                                                    <a href="#" class="px-2 third">Home</a>
+                                                                    <a href="#" class="px-2 third">Work</a>
+                                                                    <a href="#" class="px-2 third">Service</a>
+                                                                    <a href="#" class="px-2 third">About</a>
+                                                                    <a href="#" class="px-2 third">Blog</a>
+                                                                    <a href="#" class="px-2 third">Contact</a>
+                                                                </nav>                     
+                                                                <div class="item col-md-2 text-center text-md-right ml-auto mb-3">
+                                                                    <div class="social">
+                                                                        <a href="#" class="mx-2"><i class="fa fa-facebook icn fourth"></i></a>
+                                                                        <a href="#" class="mx-2"><i class="fa fa-twitter icn fourth"></i></a>
+                                                                        <a href="#" class="mx-2"><i class="fa fa-instagram icn fourth"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex footer_bottom pt-5">
+                                                                <p class="paragr col-md-6 py-3 text-center text-sm-center text-md-left">
+                                                                    She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday.
+                                                                </p>
+                                                                <div class="licence-link col-md-5 ml-auto align-self-center text-center">
+                                                                    <a href="#" class="mr-3">Privacy Policy</a>
+                                                                    <a href="#">Terms and Conditions</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                    </footer>
+                                </div>
+                                <div class="browser-mockup">
+                                    <div class="browser-mockup-bar">
+                                        <div class="circles">
+                                            <span class="first-circle"></span>
+                                            <span class="second-circle"></span>
+                                        </div>
+                                    </div>
+                                    <footer class="footer-mdl2 footer dark-footer py-5 fourth">
+                                            <div class="container">
+                                                <div class="top-row">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-2 mb-3 text-center text-md-left">
+                                                                <a href="#" class="logo">
+                                                                    <div class="logo_container">
+                                                                        <img src="img/logo.png">
+                                                                        <small class="d-block text-right"  style="color: #fff;">by Captain design</small>
+                                                                    </div>
+                                                                </a>
+                                                            </div>   
+                                                            <nav class="links col-md-8 text-center mb-3">
+                                                                    <a href="#" class="px-2 " style="color: #fff;">Home</a>
+                                                                    <a href="#" class="px-2 " style="color: #fff;">Work</a>
+                                                                    <a href="#" class="px-2 " style="color: #fff;">Service</a>
+                                                                    <a href="#" class="px-2 " style="color: #fff;">About</a>
+                                                                    <a href="#" class="px-2 " style="color: #fff;">Blog</a>
+                                                                    <a href="#" class="px-2 " style="color: #fff;">Contact</a>
+                                                                </nav>                     
+                                                            <div class="item col-md-2 text-center text-md-right ml-auto mb-3">
+                                                                <div class="social">
+                                                                    <a href="#" class="mx-2"><i class="fa fa-facebook" style="color: #fff;"></i></a>
+                                                                    <a href="#" class="mx-2"><i class="fa fa-twitter" style="color: #fff;"></i></a>
+                                                                    <a href="#" class="mx-2"><i class="fa fa-instagram" style="color: #fff;"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex footer_bottom pt-5" style="border-top: 1px solid #ebebeb31;">
+                                                            <p class="paragr col-md-6 py-3 text-center text-sm-center text-md-left">
+                                                                She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday.
+                                                            </p>
+                                                            <div class="licence-link col-md-5 ml-auto align-self-center text-center">
+                                                                <a class="mr-2" href="#"  style="color: #fff;">Privacy Policy</a>
+                                                                <a href="#"  style="color: #fff;">Terms and Conditions</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </main>
-        <footer class="footer-mdl1 footer py-3">
+        <footer class="footer-mdl1 footer py-3 mt-5">
             <div class="container">
                 <div class="row">
                     <nav class="col-md-12 text-center">
-                        Made with ❤️ in Europe by <a href="http://www.raoufblk.com/">RaoufBlk</a>
+                        Made with ❤️ in Algeria by <a href="http://www.raoufblk.com/">RaoufBlk</a>
                     </nav>
                 </div>
             </div>
@@ -219,9 +1188,19 @@
                     var paletteVal = $(this).index();
                     var paletteLink =  $(".url",this).attr('href');
                     $(".current-palette").attr( 'id', idName );
-                    $(".main-content").attr( 'id', "-palette-" + paletteVal );
+                    $(".main-content").attr( 'id', "ui-palette-" + paletteVal );
                     $(".target-url").attr( 'href', paletteLink );
                 });
+                $('.tabs a').on('click', function (event) {
+                    event.preventDefault();
+                    
+                    $('.tab-active').removeClass('tab-active');
+                    $(this).parent().addClass('tab-active');
+                    $('.tabs-stage .content').hide();
+                    $($(this).attr('href')).show();
+                });
+
+                $('.tabs a:first').trigger('click'); // Default
             });
         </script>
     </body>
